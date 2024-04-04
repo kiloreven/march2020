@@ -1,0 +1,19 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left top, #494f5e, #444b5b, #404859, #3b4456, #364154, #354054, #354055, #343f55, #374158, #3a435b, #3e445d, #414660);
+}
+
+@font-face {
+    font-family: "HVD Comic Serif Pro";
+    src: url("fonts/HVD_Comic_Serif_Pro.otf");
+}
+
+h1, h2, h3, h4 {
+    font-family: "HVD Comic Serif Pro", serif;
+    color: #EEE;
+}
+
+#calendar{
+    margin: 1em;
+}
