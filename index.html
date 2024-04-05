@@ -120,7 +120,7 @@
     let today = new Date();
 
     let diff_time = today.getTime() - march2020.getTime();
-    let diff_days = Math.round(diff_time / (1000 * 86400));
+    let diff_days = Math.round(diff_time / (1000 * 86400)) + 1;
 
     const nth = document.getElementById("nth");
     const num = document.getElementById("number-container");
