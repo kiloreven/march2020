@@ -9,11 +9,41 @@ html{
     src: url("fonts/HVD_Comic_Serif_Pro.otf");
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p, i {
     font-family: "HVD Comic Serif Pro", serif;
     color: #EEE;
+    margin: 0.5em 0;
 }
 
 #calendar{
     margin: 1em;
+    max-height: 80mm;
+    display: flex;
+}
+
+#calendar-outer {
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+}
+
+#inspo {
+    margin-top: 1em;
+    font-size: 18px;
+    /*
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    */
 }
